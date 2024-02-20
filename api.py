@@ -18,7 +18,7 @@ tags = [
        },
        {
               "name": "Predict",
-              "description": "Predicttion un peu pas fou",
+              "description": "Predicttion un peu mieu",
        },
 ]
 
