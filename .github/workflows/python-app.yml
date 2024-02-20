@@ -53,3 +53,4 @@ jobs:
         script: |
           cd /home/admin/api_cicd 
           git pull
+          docker-compose restart
