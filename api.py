@@ -18,7 +18,7 @@ tags = [
        },
        {
               "name": "Predict",
-              "description": "Predicttion un peu mieu et en direct live 3 avec le goblin et la lave",
+              "description": "Prediction avec un cicd de qwaliter",
        },
 ]
 
