@@ -18,7 +18,7 @@ tags = [
        },
        {
               "name": "Predict",
-              "description": "Predicttion un peu mieu et en direct live",
+              "description": "Predicttion un peu mieu et en direct live 2 le retroi du tour",
        },
 ]
 
