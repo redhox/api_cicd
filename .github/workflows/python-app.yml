@@ -51,6 +51,6 @@ jobs:
         username: ${{ secrets.VPS_USERNAME }}
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         script: |
-          cd /home/admin/api_cicd 
-          git pull
+          cd /home/admin/api_cicd
+          git pull origin main
           docker-compose restart
