@@ -14,11 +14,11 @@ import os
 tags = [
        {
               "name": "Hello",
-              "description": "Hello World",
+              "description": "Hello World (c'est un hello world)",
        },
        {
               "name": "Predict",
-              "description": "Prediction avec un cicd de qwaliter qui est en cicd",
+              "description": "Prediction de qwaliter en cicd (la classe)",
        },
 ]
 
