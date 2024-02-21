@@ -18,7 +18,7 @@ tags = [
        },
        {
               "name": "Predict",
-              "description": "Prediction de qwaliter en cicd (la classe)",
+              "description": "Prediction de qwaliter en cicd (le swag)",
        },
 ]
 
