@@ -52,5 +52,5 @@ jobs:
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         script: |
           cd /home/admin/api_cicd
-          git pull origin main
+          git pull
           docker-compose restart
