@@ -52,7 +52,7 @@ jobs:
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         script: |
           sudo apt update && sudo apt upgrade -y
-          sudo apt-get install -y docker docker-compose
+          sudo apt-get install -y docker.io docker-compose
           sudo systemctl restart docker.service
           if [ ! -d "nom_du_dossier" ]; then
             git clone https://github.com/redhox/api_cicd.git api_cicd
