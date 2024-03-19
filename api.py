@@ -22,7 +22,6 @@ tags = [
        },
 ]
 
-
 # Création de l'application
 app = FastAPI(
        title="API de prediction en cicd",
