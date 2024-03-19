@@ -60,7 +60,7 @@ jobs:
             sudo docker-compose up -d
           else
             cd /homme/admin/api_cicd
-            git pull origin main
             sudo docker-compose down
+            git pull origin main
             sudo docker-compose up -d --build
-          fi
+          fi 
