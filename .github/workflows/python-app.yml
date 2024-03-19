@@ -60,6 +60,6 @@ jobs:
             sudo docker-compose up -d
           else
             cd api_cicd
-            git pull
+            git pull origin main
             sudo docker-compose restart
           fi
