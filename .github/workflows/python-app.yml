@@ -56,6 +56,7 @@ jobs:
           sudo systemctl restart docker.service
           if [ ! -d "nom_du_dossier" ]; then
             git clone https://github.com/redhox/api_cicd.git api_cicd
+            cd api_cicd
           else
             cd api_cicd
             git pull
