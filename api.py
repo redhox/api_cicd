@@ -18,7 +18,7 @@ tags = [
        },
        {
               "name": "Predict",
-              "description": "Prediction en cicd full auto",
+              "description": "Prediction en cicd",
        },
 ]
 
