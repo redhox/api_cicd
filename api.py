@@ -25,7 +25,7 @@ tags = [
 # Création de l'application
 app = FastAPI(
        title="API de prediction en cicd",
-       description= "Predictions qui a pour but d'etre un test de production cicd",
+       description= "Predictions qui a pour but d'etre un test de production cicd full auto",
        version= "1.0.0",
        openapi_tags= tags
 )
