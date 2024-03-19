@@ -55,7 +55,8 @@ jobs:
           sudo apt-get install -y docker.io docker-compose
           sudo systemctl restart docker.service
           if [ ! -d "/homme/admin/api_cicd" ]; then
-            git clone https://github.com/redhox/api_cicd.git api_cicd
+            cd /home/admin
+            git clone https://github.com/redhox/api_cicd.git
             cd api_cicd
             sudo docker-compose up -d
           else
