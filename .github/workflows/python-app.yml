@@ -51,6 +51,9 @@ jobs:
         username: ${{ secrets.VPS_USERNAME }}
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         script: |
+          sudo apt update && sudo apt upgrade -y
+          sudo apt-get install -y docker docker-compose
+          sudo systemctl restart docker.service
           cd /home/admin/api_cicd
           git pull
-          docker-compose restart
+          sudo docker-compose restart
