@@ -54,6 +54,10 @@ jobs:
           sudo apt update && sudo apt upgrade -y
           sudo apt-get install -y docker docker-compose
           sudo systemctl restart docker.service
-          cd /home/admin/api_cicd
-          git pull
+          if [ ! -d "nom_du_dossier" ]; then
+            git clone https://github.com/redhox/api_cicd.git api_cicd
+          else
+            cd api_cicd
+            git pull
+          fi
           sudo docker-compose restart
