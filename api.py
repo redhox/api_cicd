@@ -14,7 +14,7 @@ import os
 tags = [
        {
               "name": "Hello",
-              "description": "Hello World (c'est un hello world)",
+              "description": "Hello World",
        },
        {
               "name": "Predict",
